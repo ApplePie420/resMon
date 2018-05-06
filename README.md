@@ -18,7 +18,7 @@ Really this is pretty cool project (admit it..). I played around with idea of cr
 [] Plot graphs
 [x] Make an YouTube video [LINK](https://www.youtube.com/watch?v=c-p6RKaEpBU)
 ## Libraries, links
-[**u8glib**](https://github.com/olikraus/u8glib)_
-[**pySerial**](https://pypi.org/project/pyserial/)_
-[**psutil**](https://pypi.org/project/psutil/)_
-[**YouTube Video**](https://www.youtube.com/watch?v=c-p6RKaEpBU)_
+[**u8glib**](https://github.com/olikraus/u8glib)  
+[**pySerial**](https://pypi.org/project/pyserial/)  
+[**psutil**](https://pypi.org/project/psutil/)  
+[**YouTube Video**](https://www.youtube.com/watch?v=c-p6RKaEpBU)  
