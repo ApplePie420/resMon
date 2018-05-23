@@ -3,7 +3,7 @@
 resMon is relativly simple project with Arduino and OLED screen with small custom python code, that displays you PC usage (CPU, RAM and up to 2 harddrives´s free space). This is how it looks:
 ![resMonIMAGE](OLED2.png)
 ## Arduino 
-I chose Arduino over countless other platforms because almost everyone own one, and if not, it can be bought for really cheap. Its programming language may not be the fastest and most reliable, but its really simple to use and understand and it have **giant** community and library support. I used default *wire.h* library with [**u8glib**](https://github.com/olikraus/u8glib). I paired it with chinese 128x64 OLED display interfacing throught I2C bus, to keep simplicity. Thus you can utilize Arduino Pro Micro, an OLED display, 4 wires and custom 3D printed case **(design is in WIP)** to create really tiny and cute USB powered PC usage monitor!
+I chose Arduino over countless other platforms because almost everyone own one, and if not, it can be bought for really cheap. Its programming language may not be the fastest and most reliable, but its really simple to use and understand and it have **giant** community and library support. I used default *wire.h* library with [**u8glib**](https://github.com/olikraus/u8glib). I paired it with chinese 128x64 OLED display interfacing throught I2C bus, to keep simplicity. Thus you can utilize Arduino Pro Micro, an OLED display, 4 wires and custom [**3D printed case**](https://www.tinkercad.com/things/kKZvLYCUVjT) to create really tiny and cute USB powered PC usage monitor!
 ## Python
 I created very simple python code using [**pySerial**](https://pypi.org/project/pyserial/) and [**psutil**](https://pypi.org/project/psutil/) libraries to create simple, not demanding software that gathers CPU and RAM usage alongside with free HDD/SSD space counter and send it to Arduino via *serial interface*. 
 ## OpenSource
@@ -12,7 +12,7 @@ Well code is in version 3.2 which i believe is final version. I will tweak possi
 Really this is pretty cool project (admit it..). I played around with idea of creating diskMon, raidMon and more HW/SW to display different info about PC/Server. Also, i am working on 3D model of case to use with Arduino Pro Micro to make small, portable USB powered resMon-to-go. 
 ## To-do list
 - [x] 3D Case design [**LINK**](https://www.tinkercad.com/things/kKZvLYCUVjT) **UPDATED mUSB SUPPORT**
-- [ ] Optimize (and proferably clean) the code  
+- [x] Optimize (and proferably clean) the code (actually it was pretty well written from beggining.. open to any suggestions tho)
 - [ ] HDDmon  
 - [ ] Add second screen with temperature readings  
 - [ ] Plot graphs  
