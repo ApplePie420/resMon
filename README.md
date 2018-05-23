@@ -11,7 +11,7 @@ Well code is in version 3.2 which i believe is final version. I will tweak possi
 ## What´s Next?
 Really this is pretty cool project (admit it..). I played around with idea of creating diskMon, raidMon and more HW/SW to display different info about PC/Server. Also, i am working on 3D model of case to use with Arduino Pro Micro to make small, portable USB powered resMon-to-go. 
 ## To-do list
-- [x] 3D Case design [**LINK**](https://www.tinkercad.com/things/kKZvLYCUVjT )
+- [x] 3D Case design [**LINK**](https://www.tinkercad.com/things/kKZvLYCUVjT) **UPDATED mUSB SUPPORT**
 - [ ] Optimize (and proferably clean) the code  
 - [ ] HDDmon  
 - [ ] Add second screen with temperature readings  
